@@ -6,7 +6,12 @@ Vanilla Markdown Tricks For Much Better README Files
 
 ## permanent link to a code snippet
 [**How To Get a Link**](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-a-permanent-link-to-a-code-snippet)  
-https://github.com/stevemar/code-reference-in-readme/blob/031e04f922c14ecd5b03a79d8c979ba8f3ab1e39/src/main.py#L1-L6
+```
+https://github.com/USERNAME/REPOSITORY/blob/COMMIT_HASH/FILENAME?plain=1#LX-LX
+```
+> LX - LX  == line range, written like this (exmp) : L3-L11
+
+https://github.com/eymeen/cool-markdown/blob/1279864b0306ea9cf597553d47389276727bf987/README.md?plain=1#L11-L22
 
 ## Alerts
 > [!NOTE]
@@ -31,11 +36,15 @@ https://github.com/stevemar/code-reference-in-readme/blob/031e04f922c14ecd5b03a7
 
 ## Yaml, [jekyll](https://github.com/jekyll/jekyll-gist)
 Although this is not considered 100% vanilla, but it's something you can do in github, and it will enable you to make better stuff in the MD. 
-## posting gists
+## embed gists
 ```
 {% gist __NUMBER__ __FILENAME__ %}
 ```
 `{% gist 5555251 gist.md %}`
+
+## embed repos
+[![Repository Name](https://github-readme-stats.vercel.app/api/pin/?username=eymeen&repo=cool-markdown)](https://github.com/eymeen/cool-markdown)
+
 
 ## Diagrams
 you can create [here](https://mermaid.live/edit) and paste it in the MD file
@@ -73,13 +82,14 @@ line [5000, 6000, 7500, 8200, 9500, 10500, 11000, 10200, 9200, 8500, 7000, 6000]
       "geometry": {
         "type": "Polygon",
         "coordinates": [
-          [
-              [-90,35],
-              [-90,30],
-              [-85,30],
-              [-85,35],
-              [-90,35]
-          ]
+            [
+                [37.85, 36.2],
+                [37.85, 36.15],
+                [37.9, 36.15],
+                [37.95, 36.18],
+                [37.9, 36.2],
+                [37.85, 36.2]
+            ]
         ]
       }
     }
@@ -154,6 +164,8 @@ solid cube_corner
   endfacet
 endsolid
 ```
+## videos
+<video src="https://github.com/rayytsn9/ROBOTT/assets/79029536/62f541aa-aa8c-43f5-9ead-4b7a2e0d7c2a" width="300" />
 
 ## Math
 $`\sqrt{3x-1}+(1+x)^2`$ $`Or`$ $`Just`$ $`This`$ $`Cool`$ $`Font`$
