@@ -1,6 +1,15 @@
 # cool-markdown
-Vanilla Markdown Tricks For Much Better README Files
+Vanilla Markdown Tricks For Much Better README Files, everything you need 
 
+### todo
+- [x] vanilla MD
+- [ ] with jekyll
+- [ ] cool non-vanilla MD but using fancy recourses, not the typical crap.
+- [ ] profile/project README examples
+- [ ] simple online editor as github page
+- [ ] Future: tiny details README (such as social link decoration, ability to change font)
+- [ ] add valuable resources list that has readme thingies to add (like shields and other real-time data viewing UIs)
+- [ ] Make a file that has README rules to make the file attractive and informative
 
 # Tricks
 
